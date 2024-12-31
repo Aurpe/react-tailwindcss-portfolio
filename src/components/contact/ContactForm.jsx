@@ -37,12 +37,12 @@ const ContactForm = () => {
 						Contact Form
 					</p>
 					<FormInput
-						inputLabel="Full Name"
+						inputLabel="Nom"
 						labelFor="name"
 						inputType="text"
 						inputId="name"
 						inputName="name"
-						placeholderText="Your Name"
+						placeholderText="Votre nom"
 						ariaLabelName="Name"
 					/>
 					<FormInput
@@ -51,16 +51,16 @@ const ContactForm = () => {
 						inputType="email"
 						inputId="email"
 						inputName="email"
-						placeholderText="Your email"
+						placeholderText="Votre email"
 						ariaLabelName="Email"
 					/>
 					<FormInput
-						inputLabel="Subject"
+						inputLabel="Objet de votre demande"
 						labelFor="subject"
 						inputType="text"
 						inputId="subject"
 						inputName="subject"
-						placeholderText="Subject"
+						placeholderText="Objet de votre demande"
 						ariaLabelName="Subject"
 					/>
 

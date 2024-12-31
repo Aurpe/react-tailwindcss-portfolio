@@ -1,5 +1,5 @@
 // Import images
-import AmazonImage from '../images/brands/amazon_gray.png';
+/*import AmazonImage from '../images/brands/amazon_gray.png';
 import SonyImage from '../images/brands/sony_gray.png';
 import AdidasImage from '../images/brands/adidas_gray.png';
 import FilaImage from '../images/brands/fila_gray.png';
@@ -51,4 +51,4 @@ export const clientsData = [
 		title: 'PUMA',
 		img: PumaImage,
 	},
-];
+];*/
