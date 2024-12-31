@@ -1,14 +1,36 @@
 import Button from '../reusable/Button';
 import FormInput from '../reusable/FormInput';
+import emailjs from 'emailjs-com';
 
 const ContactForm = () => {
+	const sendEmail = (e) => {
+		e.preventDefault(); // Empêche la soumission normale du formulaire
+
+		emailjs
+			.sendForm(
+				'service_wydb9k4',        // Votre Service ID
+				'template_e4k2jy9',       // Votre Template ID
+				e.target,                 // Le formulaire (capturé par e.target)
+				'02Kv6Nimh392GLhzD'       // Votre Public Key (User ID)
+			)
+			.then(
+				(result) => {
+					console.log('Message envoyé avec succès:', result.text);
+					alert('Message envoyé avec succès !');
+				},
+				(error) => {
+					console.error('Erreur lors de l’envoi:', error.text);
+					alert('Erreur lors de l’envoi du message. Veuillez réessayer.');
+				}
+			);
+		e.target.reset(); // Réinitialise le formulaire après l’envoi
+	};
+
 	return (
 		<div className="w-full lg:w-1/2">
 			<div className="leading-loose">
 				<form
-					onSubmit={(e) => {
-						e.preventDefault();
-					}}
+					onSubmit={sendEmail} // Appelle la fonction sendEmail lors de la soumission
 					className="max-w-xl m-4 p-6 sm:p-10 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left"
 				>
 					<p className="font-general-medium text-primary-dark dark:text-primary-light text-2xl mb-8">
@@ -73,3 +95,4 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
+
