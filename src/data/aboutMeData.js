@@ -2,26 +2,29 @@ export const aboutMeData = [
   {
     id: 1,
     bio: `
-      Je m'appelle Aurélie, et je suis développeuse web passionnée par l'informatique et la création de solutions numériques. 
+      Je suis Aurélie, développeuse web passionnée par la technologie et la création de solutions numériques.
 
-      Après plusieurs années d'expérience dans le développement commercial et le marketing, où j'ai obtenu un Bac +4 en développement commercial et marketing, j'ai décidé de me réorienter vers un domaine qui m'a toujours fasciné : le développement web.
+      Après plusieurs années dans le développement commercial et le marketing, où j'ai obtenu un Bac +4, j'ai choisi de suivre ma véritable passion : le développement web.
 
-      Au fil de ma carrière, j'ai occupé plusieurs postes de manager de terrain en magasin, où j'ai acquis des compétences solides en gestion d'équipe, relation client et résolution de problèmes. 
+      Mon parcours professionnel m'a permis d’acquérir des compétences solides en gestion d'équipe, relation client et résolution de problèmes grâce à des postes de manager terrain en magasin.
 
-      Cependant, j'ai ressenti le besoin de relever de nouveaux défis et de poursuivre une passion qui m'a toujours animé : la création et le développement d'applications web.
+      Cependant, mon intérêt croissant pour la conception et le développement d’applications web m’a motivée à entreprendre une reconversion professionnelle.
     `,
   },
   {
     id: 2,
     bio: `
-      Pour réaliser cette reconversion, j'ai suivi une formation intensive en développement web, au cours de laquelle j'ai appris à maîtriser des technologies telles que HTML, CSS, JavaScript, ainsi que des frameworks et outils modernes qui permettent de créer des sites web interactifs et performants. 
+      Pour atteindre cet objectif, j’ai suivi une formation intensive en développement web, où j’ai appris à maîtriser HTML, CSS, JavaScript et des outils modernes pour créer des sites web interactifs et performants.
 
-      Mon parcours m'a permis de combiner mes compétences techniques avec mon sens de l'écoute et de la gestion de projet, acquis lors de mes précédentes expériences professionnelles.
+      Cette transition m’a également permis de combiner mes compétences techniques avec mon sens de l’écoute et de la gestion de projet, développés au cours de ma carrière précédente.
 
-      Aujourd'hui, je mets mes compétences en développement web au service de projets variés, avec l'ambition de concevoir des solutions efficaces, intuitives et adaptées aux besoins des utilisateurs. 
+      Aujourd'hui, je mets tout en œuvre pour concevoir des solutions web intuitives et adaptées aux besoins des utilisateurs.
 
-      Mon objectif est de continuer à apprendre, évoluer et relever de nouveaux défis dans le monde dynamique du développement web.
+      Animée par une volonté constante d'apprendre et de relever de nouveaux défis, je suis enthousiaste à l'idée de contribuer à des projets variés et d'évoluer dans cet univers dynamique.
     `,
   },
 ];
+
+
+
 
