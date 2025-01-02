@@ -56,7 +56,6 @@ git clone https://github.com/realstoman/react-tailwindcss-portfolio.git
 3. Open the project folder:
 
 ```
-cd react-tailwindcss-portfolio
 ```
 
 4. Install packages and dependencies:

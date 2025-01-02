@@ -1,0 +1,177 @@
+{
+  "projects": [
+    {
+      "ProjectHeader": {
+        "title": "Booki"
+      },
+      "ProjectImages": [
+        {
+          "id": 1,
+          "title": "Interface desktop Booki",
+          "img": "../images/homepage_Booki.webp"
+        },
+        {
+          "id": 2,
+          "title": "Interface mobile Booki",
+          "img": "../images/activites-booki.webp"
+        },
+        {
+          "id": 3,
+          "title": "Interface mobile Booki",
+          "img": "../images/mockup_booki.svg"
+        }
+      ],
+      "ProjectInfo": {
+        "ClientHeading": "À propos du client",
+        "CompanyInfo": [
+          {
+            "id": 1,
+            "title": "Booki",
+            "details": "Agence de voyages"
+          },
+          {
+            "id": 2,
+            "title": "Services",
+            "details": "Frontend"
+          }
+        ],
+        "ObjectivesHeading": "Objectif",
+        "ObjectivesDetails":" L'objectif est de développer une page d'accueil responsive pour une agence de voyage, permettant aux utilisateurs de rechercher des hébergements et activités facilement, quel que soit leur appareil.",
+        "Technologies": [
+          {
+            "title": "Outils & Technologies",
+            "techs": ["HTML", "CSS"]
+          }
+        ],
+        "ProjectDetailsHeading": "Challenge",
+        "ProjectDetails": [
+          {
+            "id": 1,
+            "text": "Créer une interface utilisateur attrayante et fonctionnelle adaptée aux appareils mobiles, tablettes et ordinateurs."
+          },
+          {
+            "id": 2,
+            "text": "Assurer une navigation intuitive pour permettre aux utilisateurs de trouver facilement ce dont ils ont besoin."
+          }
+        ]
+      },
+      "GithubLink": "https://github.com/votre-utilisateur/booki-project"
+    },
+    {
+      "ProjectHeader": {
+        "title": "Kasa",
+        "tags": "Frontend"
+      },
+      "ProjectImages": [
+        {
+          "id": 1,
+          "title": "Interface desktop Kasa",
+          "img": "../images/homepage_Kasa.webp"
+        },
+        {
+          "id": 2,
+          "title": "Interface mobile Kasa",
+          "img": "../images/kasa_desktop_mobile.webp"
+        },
+        {
+          "id": 3,
+          "title": "Interface mobile Kasa",
+          "img": "../images/kasa_desktop.webp"
+        }
+      ],
+      "ProjectInfo": {
+        "ClientHeading": "À propos du client",
+        "CompanyInfo": [
+          {
+            "id": 1,
+            "title": "Kasa",
+            "details": "Plateforme de réservation d'hébergements"
+          },
+          {
+            "id": 2,
+            "title": "Services",
+            "details": "Frontend"
+          }
+        ],
+        "ObjectivesHeading": "Objectif",
+        "ObjectivesDetails": "L'objectif est de développer un site de réservation d'hébergements offrant une interface utilisateur conviviale, mettant en avant les logements disponibles avec des informations détaillées et des avis.",
+        "Technologies": [
+          {
+            "title": "Outils & Technologies",
+            "techs": ["React", "SASS"]
+          }
+        ],
+        "ProjectDetailsHeading": "Challenge",
+        "ProjectDetails": [
+          {
+            "id": 1,
+            "text": "Intégrer des fonctionnalités avancées comme la gestion des avis et des galeries d'images dynamiques pour les hébergements."
+          },
+          {
+            "id": 2,
+            "text": "Assurer que l'interface utilisateur est optimisée pour différents types d'appareils."
+          }
+        ]
+      },
+      "GithubLink": "https://github.com/Aurpe/Kasa"
+    },
+    {
+      "ProjectHeader": {
+        "title": "Oh my Food",
+        "tags": "Frontend"
+      },
+      "ProjectImages": [
+        {
+          "id": 1,
+          "title": "Interface desktop Oh my Food",
+          "img": "../images/Image-Ohmyfood.webp"
+        },
+        {
+          "id": 2,
+          "title": "Interface mobile Oh my Food",
+          "img": "../images/homepage_ohmyfood.webp"
+        },
+        {
+          "id": 3,
+          "title": "Interface mobile Kasa",
+          "img": "../images/image2_Ohmyfood.webp"
+        }
+      ],
+      "ProjectInfo": {
+        "ClientHeading": "À propos du client",
+        "CompanyInfo": [
+          {
+            "id": 1,
+            "title": "Oh my Food",
+            "details": "Entreprise de restauration"
+          },
+          {
+            "id": 2,
+            "title": "Services",
+            "details": "Frontend"
+          }
+        ],
+        "ObjectivesHeading": "Objectif",
+        "ObjectivesDetails": "L'objectif est de développer un site 'mobile first' qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée.",
+        "Technologies": [
+          {
+            "title": "Outils & Technologies",
+            "techs": ["HTML", "SASS"]
+          }
+        ],
+        "ProjectDetailsHeading": "Challenge",
+        "ProjectDetails": [
+          {
+            "id": 1,
+            "text": "Le principal défi était de créer une interface utilisateur mobile-first qui s'adapte parfaitement aux différents types d'appareils et d'écrans."
+          },
+          {
+            "id": 2,
+            "text": "Une autre difficulté a été d'intégrer un système de personnalisation des repas qui permette aux utilisateurs de modifier leurs commandes facilement."
+          }
+        ]
+      },
+      "GithubLink": "https://github.com/Aurpe/OHMYFOOD"
+    }
+  ]
+}

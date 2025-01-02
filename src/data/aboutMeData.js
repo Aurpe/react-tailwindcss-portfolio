@@ -23,6 +23,8 @@ export const aboutMeData = [
       Animée par une volonté constante d'apprendre et de relever de nouveaux défis, je suis enthousiaste à l'idée de contribuer à des projets variés et d'évoluer dans cet univers dynamique.
     `,
   },
+
+  
 ];
 
 

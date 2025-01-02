@@ -1,67 +1,89 @@
-
+import Image1 from '../images/booki/homepage_Booki.png';
+import Image2 from '../images/booki/activites-booki.webp';
+//import Image3 from '../images/booki/imageBooki.webp';
+import Image4 from '../images/ohmyfood/mockup_ohmyfood.webp';
+import Image5 from '../images/kasa/kasa_desktop_mobile.webp';
 
 export const singleProjectData = {
   ProjectHeader: {
-    title: 'Oh my Food',
+    title: "Création de la page d'accueil d'une page HTML et CSS",
+    publishDate: 'Mars 2024',
     tags: 'Frontend',
   },
   ProjectImages: [
     {
       id: 1,
-      title: 'Interface desktop Oh my Food',
-      //img: Image1,
+      title: 'Kabul Project Management UI',
+      img: Image1,
     },
     {
       id: 2,
       title: 'Kabul Project Management UI',
-      //img: //Image2,
+      img: Image2,
     },
-    {
-      id: 3,
-      title: 'Booki Application Interface',
-      //img: //Image3,
-    },
-    {
-      id: 4,
-      title: 'Project Kasa UI',
-      //img: //Image4,
-    },
-    
+   ,
   ],
   ProjectInfo: {
-    ClientHeading: 'À propos du client',
+    ClientHeading: 'Informations client',
     CompanyInfo: [
       {
         id: 1,
-        title: 'Oh my Food',
-        details: 'Entreprise de restauration',
+        title: 'BOOKI',
+        details: 'Agence de voyage',
       },
-      {
-        id: 2,
-        title: 'Services',
-        details: 'Frontend',
-      },
+      
+      
     ],
-    ObjectivesHeading: 'Objectif',
-    ObjectivesDetails:
-      "L'objectif est de développer un site 'mobile first' qui répertorie les menus de restaurants gastronomiques. " +
-      "En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée.",
+    ObjectivesHeading: 'Objectifs',
+    ObjectivesDetails: ' maîtriser les bases essentielles du développement front-end et de design responsive.',
     Technologies: [
       {
         title: 'Outils & Technologies',
-        techs: ['HTML', 'SASS'],
+        techs: ['HTML', 'CSS']
       },
     ],
-    ProjectDetailsHeading: 'Challenge',
+    ProjectDetailsHeading: 'Challenges',
     ProjectDetails: [
       {
         id: 1,
-        text: "Le principal défi était de créer une interface utilisateur mobile-first qui s'adapte parfaitement aux différents types d'appareils et d'écrans.",
+        details:
+          "Création d'une interface responsive : Adapter la page d'accueil aux formats mobile, tablette et desktop en utilisant des media queries et un design flexible.",
       },
       {
         id: 2,
-        text: "Une autre difficulté a été d'intégrer un système de personnalisation des repas qui permette aux utilisateurs de modifier leurs commandes facilement.",
+        details:
+          "Reproduction fidèle des maquettes : Intégrer les designs Figma avec précision en respectant les couleurs, typographies et proportions.",
+      },
+      {
+        id: 3,
+        details:
+          "Développement de composants personnalisés : Concevoir des éléments d'interface (boutons, cartes, menus) en HTML et CSS.",
+      },
+      {
+        id: 4,
+        details:
+          "Optimisation de l'expérience utilisateur : Assurer une navigation fluide et un design intuitif sur toutes les tailles d'écran.Intégration d'images optimisées pour garantir des temps de chargement rapides tout en préservant la qualité visuelle.",
       },
     ],
   },
+  RelatedProject: {
+    title: 'Related Projects',
+    Projects: [
+      {
+        id: 1,
+        title: 'Projet OH My Food',
+        img: Image4,
+      },
+      {
+        id: 2,
+        title: 'Projet Kasa',
+        img: Image5,
+      },
+      
+    ],
+  },
 };
+
+
+
+
